@@ -39,7 +39,7 @@ while True:
     mail.attach(MIMEText(body,'plain'))
     server = smtplib.SMTP('smtp.gmail.com',587)
     server.starttls()
-    server.login(fromaddr,"agasthya@789")
+    server.login(fromaddr,"dinesh@gmail.com")
     text = mail.as_string()
     server.sendmail(fromaddr, toaddr, text)
     server.quit()

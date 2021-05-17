@@ -29,8 +29,7 @@ while True:
     print("Motion Detected")
     '''sends mail alert'''
     fromaddr = "raspb027@gmail.com"
-    toaddr = "agasthya30@gmail.com"
-    toaddr = "dineshwinchester@gmail.com"
+    toaddr = "dinesh@gmail.com"
     mail = MIMEMultipart()
     mail['From'] = fromaddr
     mail['To'] = toaddr
